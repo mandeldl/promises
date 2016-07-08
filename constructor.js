@@ -7,7 +7,7 @@ const resolve = console.log,
 
 const text = 
   new Promise(function (resolve, reject) {
-    fs.readFile('tex.txt', function (err, text) {
+    fs.readFile('text.txt', function (err, text) {
       if (err) 
         reject(err);
       else
